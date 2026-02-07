@@ -98,28 +98,28 @@ npm run dev
 ## ⚙️📈 Charts & Visualization
 
 
-X Axis: Target VUs
+**X Axis: Target VUs**
 
-Y Axis: Average Response Time (ms)
+**Y Axis: Average Response Time (ms)**
 
-Hovering on a data point shows:
+**Hovering on a data point shows:**
 
-Avg & P95 response time
+**Avg & P95 response time**
 
-Success rate
+**Success rate**
 
-Error rate
+**Error rate**
 
-Total requests
+**Total requests**
 
-Test duration
+**Test duration**
 
-Execution timestamp
+**Execution timestamp** 
 ---
 
 ###🧪 How It Works
 
-User fills the test form:
+**User fills the test form:**
 
 -Target API URL
 
@@ -129,50 +129,50 @@ User fills the test form:
 
 -Scenario selection
 
-The form sends a request to a Next.js API route
+**The form sends a request to a Next.js API route**
 
-The API spawns a k6 process using child_process
+**The API spawns a k6 process using child_process**
 
-k6 executes the test with environment variables
+**k6 executes the test with environment variables**
 
-Test results are parsed and returned
+**Test results are parsed and returned**
 
-Results are visualized in a chart
+**Results are visualized in a chart**
 
-Test history is stored in localStorage
+**Test history is stored in localStorage**
 ---
 ###  📊 Metrics Collected
 
-Each test execution produces the following metrics:
+**Each test execution produces the following metrics:**
 
-Average Response Time
+**Average Response Time**
 
-P95 Response Time
+**P95 Response Time**
 
-Success Rate
+**Success Rate**
 
-Error Rate
+**Error Rate**
 
-Total Requests
+**Total Requests**
 
-Target VUs
+**Target VUs**
 
-Test Duration
+**Test Duration**
 
-Timestamp
+**Timestamp**
 ---
 ## ⚠️ Important Notes
-Intended for development / staging environments
+- Intended for development / staging environments
 
-High VU values may cause:
+- High VU values may cause:
 
-Network saturation
+- Network saturation
 
-API rate limiting
+- API rate limiting
 
-status code 0 errors in k6
+- status code 0 errors in k6
 
-Avoid running against production APIs without safeguards
+- Avoid running against production APIs without safeguards
 ---
 ##  🤝 Contributing
 Pull requests, issues, and suggestions are welcome.
