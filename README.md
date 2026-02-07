@@ -84,14 +84,14 @@ Make sure the following are installed:
 brew install k6
 # or
 choco install k6
-
+```
 ---
 ## Running the Project
 
 ``` bash 
 npm install
 npm run dev
-
+```
 
 ---
 
