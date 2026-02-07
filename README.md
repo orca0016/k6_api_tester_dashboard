@@ -71,47 +71,6 @@ This project provides a clean UI to:
 - **Node.js child_process**
 
 ---
-
-## 📂 Project Structure
-
-├── app/
-│ ├── api/
-│ │ └── test/
-│ │ └── route.ts # API route to run k6 tests
-│ ├── history/
-│ │ └── page.tsx # Test history & chart view
-│ ├── layout.tsx
-│ ├── page.tsx # Main page (test form)
-│ └── globals.css
-│
-├── icons/
-│ └── icons.tsx
-│
-├── k6/
-│ ├── script.js # Main k6 test runner
-│ └── tokens.json # Optional auth tokens
-│
-├── public/
-│
-├── scenarios/
-│ ├── functions.ts # Scenario handlers
-│ ├── run-test.ts # k6 execution logic
-│ └── scenarios-list.ts # Scenario definitions
-│
-├── types/
-│ └── scenario.ts # Shared TypeScript interfaces
-│
-├── utils/
-│ └── date-formater.ts # Persian date formatter
-│
-├── README.md
-├── package.json
-├── tsconfig.json
-└── next.config.ts
-
-
----
-
 ## ⚙️ Prerequisites
 
 Make sure the following are installed:
